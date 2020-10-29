@@ -11,7 +11,6 @@ It is an online learning portal that will offer pocket friendly, advanced course
 	"course_id": 1,
 	"name": "Spring boot",
 	"description": "Beginers guide to spring boot",
-	"duration_in_months": 2,
 	"price_strategies": [
 		{
 			"id": 1,
@@ -46,3 +45,10 @@ It is an online learning portal that will offer pocket friendly, advanced course
   4. Run `mvn install`.
   5. Run `mvn spring-boot:run`.
   6. The server is running on [localhost:8080]().
+  7. Run `curl http://localhost:8080/online-courses/US/courses/1`
+  
+  ## Assumptions
+  
+  1. Every price components are fixed value.
+  2. Course details are already validated and saved on database
+  3. Duration of courses stored in no. of months.
