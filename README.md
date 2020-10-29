@@ -11,6 +11,7 @@ It is an online learning portal that will offer pocket friendly, advanced course
 	"course_id": 1,
 	"name": "Spring boot",
 	"description": "Beginers guide to spring boot",
+	"total_price":108.11,
 	"price_strategies": [
 		{
 			"id": 1,
