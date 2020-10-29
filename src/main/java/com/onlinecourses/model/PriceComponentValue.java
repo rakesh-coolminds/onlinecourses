@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-@Table(name = "price_component_vaue")
+@Table(name = "price_component_value")
 @Entity
 public class PriceComponentValue implements Serializable {
     private static final long serialVersionUID = 1L;
